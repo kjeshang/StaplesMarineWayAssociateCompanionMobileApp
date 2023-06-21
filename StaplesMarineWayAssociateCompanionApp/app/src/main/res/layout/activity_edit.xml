@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_addProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tv_editProduct"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_backToMainFromEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="11dp"
+        android:backgroundTint="@color/ic_launcher_staples_canada_background"
+        android:text="@string/btn_backToMainFromEdit"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/num_editItemNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/stch_editProductEdit"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_editProductSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="26dp"
+        android:backgroundTint="@color/ic_launcher_staples_canada_background"
+        android:text="@string/btn_editProductSave"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/sv_addLayout"
+        app:layout_constraintStart_toEndOf="@+id/btn_editProductDelete"
+        app:layout_constraintTop_toBottomOf="@+id/stch_editProductEdit" />
+
+    <Button
+        android:id="@+id/btn_editProductDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="35dp"
+        android:backgroundTint="@color/ic_launcher_staples_canada_background"
+        android:text="@string/btn_editProductDelete"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/sv_addLayout"
+        app:layout_constraintEnd_toStartOf="@+id/btn_editProductSave"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_addProduct" />
+
+    <Switch
+        android:id="@+id/stch_editProductEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="4dp"
+        android:minHeight="48dp"
+        android:text="@string/stch_editProductEdit"
+        app:layout_constraintBottom_toTopOf="@+id/btn_editProductSave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_addProduct"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <EditText
+        android:id="@+id/num_editItemNumber"
+        android:layout_width="175dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="36dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/num_addItemNumber"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/sv_addLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btn_editProductSave"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/sv_addLayout"
+        android:layout_width="411dp"
+        android:layout_height="756dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_editProductSave"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,VisualLintBounds">
+
+        <EditText
+            android:id="@+id/pt_editItemName"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/pt_addItemName"
+            android:inputType="text"
+            android:padding="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/mt_editTypicalLocation"
+            tools:ignore="NotSibling"
+            tools:layout_editor_absoluteX="5dp" />
+
+        <EditText
+            android:id="@+id/mt_editTypicalLocation"
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/mt_addTypicalLocation"
+            android:inputType="textMultiLine"
+            android:padding="5dp"
+            android:textColorHint="#8D6E63"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pt_editItemName" />
+
+        <EditText
+            android:id="@+id/mt_editGeneralNotes"
+            android:layout_width="400dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="12dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/mt_addGeneralNotes"
+            android:inputType="textMultiLine"
+            android:padding="5dp"
+            android:textColorHint="#8D6E63"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.533"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mt_editTypicalLocation" />
+
+        <EditText
+            android:id="@+id/pt_editWebsiteLink"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/pt_addWebsiteLink"
+            android:inputType="text"
+            android:padding="5dp"
+            android:textColorHint="#8D6E63"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mt_editGeneralNotes" />
+
+        <EditText
+            android:id="@+id/pt_editReviewVideoLink"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/pt_addReviewVideoLink"
+            android:inputType="text"
+            android:padding="5dp"
+            android:textColorHint="#8D6E63"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pt_editWebsiteLink" />
+
+        <WebView
+            android:id="@+id/wv_editWebsiteLink"
+            android:layout_width="400dp"
+            android:layout_height="295dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mt_editGeneralNotes">
+
+        </WebView>
+
+        <Button
+            android:id="@+id/btn_editVideoReviewLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/ic_launcher_staples_canada_background"
+            android:text="@string/btn_editVideoReviewLink"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/wv_editWebsiteLink" />
+
+        <Button
+            android:id="@+id/btn_editWebsite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="100dp"
+            android:backgroundTint="@color/ic_launcher_staples_canada_background"
+            android:text="@string/btn_editWebsite"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toStartOf="@+id/btn_editVideoReviewLink"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/wv_editWebsiteLink" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

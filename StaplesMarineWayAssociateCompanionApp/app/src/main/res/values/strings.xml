@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Staples Marine Way Associate Companion App</string>
+    <!-- activity_main -->
+    <string name="btn_goToAdd">Add</string>
+    <string name="tv_searchProduct">Search Product</string>
+    <!-- activity_add -->
+    <string name="tv_addProduct">Add Product</string>
+    <string name="btn_backToMainFromAdd">Back</string>
+    <string name="num_addItemNumber">Item Number</string>
+    <string name="pt_addItemName">Item Name</string>
+    <string name="mt_addTypicalLocation">Typical Location</string>
+    <string name="mt_addGeneralNotes">General Notes</string>
+    <string name="pt_addWebsiteLink">Website Link</string>
+    <string name="pt_addReviewVideoLink">Review Video Link</string>
+    <string name="btn_addProductSave">Save</string>
+    <!-- activity_edit -->
+    <string name="tv_editProduct">Edit Product</string>
+    <string name="btn_backToMainFromEdit">Back</string>
+    <string name="num_editItemNumber">Item Number</string>
+    <string name="pt_editItemName">Item Name</string>
+    <string name="mt_editTypicalLocation">Typical Location</string>
+    <string name="mt_editGeneralNotes">General Notes</string>
+    <string name="pt_editWebsiteLink">Website Link</string>
+    <string name="pt_editReviewVideoLink">Review Video Link</string>
+    <string name="btn_editProductSave">Save</string>
+    <string name="btn_editProductDelete">Delete</string>
+    <string name="stch_editProductEdit">Toggle Edit</string>
+    <string name="btn_editWebsite">Staples Website</string>
+    <string name="btn_editVideoReviewLink">Video Review</string>
+</resources>

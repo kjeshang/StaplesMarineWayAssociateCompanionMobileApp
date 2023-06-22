@@ -58,4 +58,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sv_searchProduct" />
 
+    <ImageButton
+        android:id="@+id/imgbtn_goToWebsiteFromSearch"
+        android:layout_width="65dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/sv_searchProduct"
+        app:layout_constraintEnd_toStartOf="@+id/btn_goToAdd"
+        app:layout_constraintStart_toEndOf="@+id/tv_searchProduct"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher_staples_canada"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

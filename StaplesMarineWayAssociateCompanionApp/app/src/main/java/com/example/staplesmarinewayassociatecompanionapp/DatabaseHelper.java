@@ -121,8 +121,10 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         Cursor cursor = null;
 
         if(searchViewText.length() > 0) {
-            query = "SELECT * FROM " + PRODUCT_TABLE + " WHERE " + ITEM_NUMBER_COL + " = ? OR " + ITEM_NAME_COL + " = ?;";
-            cursor = db.rawQuery(query, new String[]{searchViewText, searchViewText});
+            //query = "SELECT * FROM " + PRODUCT_TABLE + " WHERE " + ITEM_NUMBER_COL + " = ? OR " + ITEM_NAME_COL + " = ?;";
+            //cursor = db.rawQuery(query, new String[]{searchViewText, searchViewText});
+            query = "SELECT * FROM " + PRODUCT_TABLE + " WHERE " + ITEM_NUMBER_COL + " = ? OR " + ITEM_NAME_COL + " LIKE ?;";
+            cursor = db.rawQuery(query, new String[]{searchViewText, "%" + searchViewText + "%"});
         }
         else {
             query = "SELECT * FROM " + PRODUCT_TABLE + ";";

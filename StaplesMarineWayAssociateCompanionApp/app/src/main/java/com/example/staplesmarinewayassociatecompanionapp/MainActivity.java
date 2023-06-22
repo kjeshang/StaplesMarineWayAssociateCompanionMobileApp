@@ -4,11 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.SearchView;
 
@@ -17,6 +19,7 @@ import com.example.staplesmarinewayassociatecompanionapp.R;
 public class MainActivity extends AppCompatActivity {
 
     Button btn_goToAdd;
+    ImageView imgbtn_goToWebsiteFromSearch;
     ListView lv_showProduct;
     SearchView sv_searchProduct;
 
@@ -31,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         databaseHelper = DatabaseHelper.getInstance(this);
 
         btn_goToAdd = findViewById(R.id.btn_goToAdd);
+        imgbtn_goToWebsiteFromSearch = findViewById(R.id.imgbtn_goToWebsiteFromSearch);
         lv_showProduct = findViewById(R.id.lv_showProduct);
         sv_searchProduct = findViewById(R.id.sv_searchProduct);
 
@@ -42,6 +46,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, AddActivity.class));
+            }
+        });
+
+        imgbtn_goToWebsiteFromSearch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.staples.ca/"));
+                startActivity(intent);
             }
         });
 

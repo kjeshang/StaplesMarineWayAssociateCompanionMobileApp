@@ -30,8 +30,8 @@ The mobile application is essentially a simple CRUD (Create, Read, Update, Delet
 Below is a breakdown of the database table columns.
 |Column|Abbreviated Name|Data Type|Primary Key?|Additional Notes|
 |--|--|--|--|--|
-|ItemNumber||Text|Yes|SKU of product|
-|ItemName||Text|No|Name of the product|
+|Item Number||Text|Yes|SKU of product|
+|Item Name||Text|No|Name of the product|
 |Typical Store Location|Store Location|Text|No|Where the product would be located in terms of shelf and/or bin location|
 |General Notes||Text|No|Useful notes, user stories, use cases, and opinions regarding the product that could help inform the customer make a purchase.|
 |Staples Website Link|Website Link|Text|No|Contains the direct Staples website link of the product, which can be useful to gain an in-depth understanding of product description & specifications. The link is also helpful as it contains an image of the product.|
@@ -43,7 +43,11 @@ Below is a breakdown of the database table columns.
 
 |Class Name|Layout|Description|
 |--|--|--|
-|DatabaseHelper.java|N/A|This is the Java class that instantiates the database, and performs the following. <ul><li>Creates the product table</li></ul>|
+|DatabaseHelper.java|N/A|This is the Java class that instantiates the database, and performs the following. <ul> <li>Creates the product table</li> <li>Creates columns/variables of the column table</li> <li>Construct create, read, update, and delete functions that apply the respective SQL statements</li> </ul>|
+|Product.java|N/A|This is the Java class that instantiates the “Product” object whereby its variables align with the database columns. Further functions such as constructors, getters, setters, and a toString method are created.|
+|MainActivity.java|activity_main.xml, listview_layout.xml|This Java class helps to render the main screen of the application. Specifically, the list of products that is selectable for viewing/editing, search bar, and add product button. It utilizes both the DatabaseHelper and Product classes.|
+|AddActivity.java|activity_add.xml|This Java class helps to render the add product screen of the application. One would be able to insert a new non-existing product into the database. It utilizes both the DatabaseHelper and Product classes.|
+|EditActivity.java|activity_edit.xml|Upon selection of the list view in the main activity screen, the item number of the selected product is saved for further information to be retrieved and populated in the edit activity screen. This Java class helps to render an existing product’s information as well as facilitate updates to product information. Deletion of productions can also be done as well. It utilizes both the DatabaseHelper and Product classes.|
 
 
 

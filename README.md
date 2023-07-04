@@ -49,13 +49,25 @@ Below is a breakdown of the database table columns.
 |AddActivity.java|activity_add.xml|This Java class helps to render the add product screen of the application. One would be able to insert a new non-existing product into the database. It utilizes both the DatabaseHelper and Product classes.|
 |EditActivity.java|activity_edit.xml|Upon selection of the list view in the main activity screen, the item number of the selected product is saved for further information to be retrieved and populated in the edit activity screen. This Java class helps to render an existing product’s information as well as facilitate updates to product information. Deletion of productions can also be done as well. It utilizes both the DatabaseHelper and Product classes.|
 
+### Layout Screens
+Below are the XML layouts that are used by the above mentioned classes to render the screens in the mobile application.
 
+* The **activity_main.xml** and **listview_layout.xml** layouts that are used by MainActivity.java.
+    
+    |activity_main.xml|listview_layout.xml|
+    |--|--|
+    |![activity_main.xml](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/activity_main%20XML.png?raw=true)|![listview_layout.xml](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/listview_layout%20XML.png?raw=true)
+    
+* The **activity_add.xml** used by AddActivity.java.
 
+    ![activity_add.xml](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/activity_add%20XML.png?raw=true)
 
+* The **activity_edit.xml** used by EditActivity.java
 
+    ![activity_edit.xml](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/activity_edit%20XML.png?raw=true)
 
-
-
+## Video Demonstration
+> Coming Soon
 
 
 

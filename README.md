@@ -67,7 +67,11 @@ Below are the XML layouts that are used by the above mentioned classes to render
     ![activity_edit.xml](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/activity_edit%20XML.png?raw=true)
 
 ### Application Screenshots
-> Coming Soon
+
+|Screenshot|Description|
+|--|--|
+|![1_Startup Application](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/1_Startup%20Application.png?raw=true)|The splash screen that is automatically rendered upon starting up the application.|
+
 
 ## Video Demonstration
 > Coming Soon

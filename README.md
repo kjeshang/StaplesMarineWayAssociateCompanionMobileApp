@@ -75,8 +75,8 @@ Below are the XML layouts that are used by the above mentioned classes to render
 |![3_MainActivity - Search by SKU.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/3_MainActivity%20-%20Search%20by%20SKU.png?raw=true)|The main screen when filtering products by SKU.|
 |![4_MainActivity - Search by Product Name.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/4_MainActivity%20-%20Search%20by%20Product%20Name.png?raw=true)|The main screen when filtering products by item name.|
 |![5_AddActivity.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/5_AddActivity.png?raw=true)|The add product screen.|
-|![6_EditActivity - Edit Mode not toggled.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/6_EditActivity%20-%20Edit%20Mode%20not%20toggled.png?raw=true)|The update product information screen when edit mode is not toggled.|
-|![7_EditActivity - Edit Mode toggled.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/7_EditActivity%20-%20Edit%20Mode%20toggled.png?raw=true)|The update product information screen when edit mode is toggled.|
+|![6_EditActivity - Edit Mode not toggled.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/6_EditActivity%20-%20Edit%20Mode%20not%20toggled.png?raw=true)|The update product screen when edit mode is not toggled.|
+|![7_EditActivity - Edit Mode toggled.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/7_EditActivity%20-%20Edit%20Mode%20toggled.png?raw=true)|The update product screen when edit mode is toggled.|
 
 ## Video Demonstration
 > Coming Soon

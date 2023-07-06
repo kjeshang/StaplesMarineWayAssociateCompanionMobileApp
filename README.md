@@ -68,6 +68,8 @@ Below are the XML layouts that are used by the above mentioned classes to render
 
 ### Application Screenshots
 
+Please refer to the [Application Screenshot Annotations](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Application%20Screenshot%20Annotations.pdf) PDF document containing the same screenshots shown in the table below in the event the image quality and/or annotation legibility is not optimal.
+
 |Screenshot|Description|
 |--|--|
 |![1_Startup Application.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/1_Startup%20Application.png?raw=true)|The splash screen of the application.|
@@ -82,7 +84,7 @@ Below are the XML layouts that are used by the above mentioned classes to render
 > Coming Soon
 
 ## Concluding Remarks
-> Coming Soon
+Working on this project was a fruitful experience as I was able to connect the skills I gained from my post-secondary education and apply it in my new role. With Staples stores typically being of a large square footage, having a mobile application to assist associates of all experience levels to systematically retrieve items for customers would not only standardize but enhance service quality. If Staples were to use such a mobile application, then it would have to host a database server that the mobile application would retrieve information from. I am thankful to have been able to revise my mobile application development, database, and Java programming skills by completing this project. I look forward to learning about more products around the Staples store, inputting new products into the mobile application, and using it to systematically create, share, and partner with customers to best meet their requirements.
 
 
 

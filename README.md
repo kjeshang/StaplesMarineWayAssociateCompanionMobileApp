@@ -71,7 +71,7 @@ Below are the XML layouts that are used by the above mentioned classes to render
 |Screenshot|Description|
 |--|--|
 |![1_Startup Application](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/1_Startup%20Application.png?raw=true)|The splash screen that is automatically rendered upon starting up the application.|
-
+|![2_MainActivity](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/2_MainActivity.png?raw=true)|The main screen of the application containing a list of products, search bar to filter by product name/SKU, and a button that redirects to the home page of the Staples Canada website.|
 
 ## Video Demonstration
 > Coming Soon

@@ -73,6 +73,7 @@ Below are the XML layouts that are used by the above mentioned classes to render
 |![1_Startup Application.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/1_Startup%20Application.png?raw=true)|The splash screen of the application.|
 |![2_MainActivity.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/2_MainActivity.png?raw=true)|The main screen of the application.|
 |![3_MainActivity - Search by SKU.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/3_MainActivity%20-%20Search%20by%20SKU.png?raw=true)|The main screen when filtering products by SKU.|
+|![4_MainActivity - Search by Product Name.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/4_MainActivity%20-%20Search%20by%20Product%20Name.png?raw=true)|The main screen when filtering products by item name.|
 
 ## Video Demonstration
 > Coming Soon

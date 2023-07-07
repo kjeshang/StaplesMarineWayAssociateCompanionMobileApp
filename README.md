@@ -1,6 +1,15 @@
 # StaplesMarineWayAssociateCompanionMobileApp
 > **Kunal Jeshang, Technology Sales Area Representative** (_Project Timeline:_ May 2023 to July 2023)
 
+## Table of Contents
+1. [Problem Statement](#Problem-Statement)
+2. [Recommended Solution](#Recommended-Solution)
+3. [Technology Requirements](#Technology-Requirements)
+4. [Database](#Database)
+5. [Application Flow](#Application-Flow)
+6. [Video Demonstration](#Video-Demonstration)
+7. [Concluding Remarks](#Concluding-Remarks)
+
 ## Problem Statement
 As a Technology Sales Area Representative (i.e., Tech Sales Associate), it is my job to connect, share, and partner with customers to help meet their technology requirements, and by extension, facilitate transactions for technology items to meet customer requirements. The nature of this role may focus on customer interaction and negotiation, although in order to successfully perform the aforementioned, an Associate must have a strong understanding on where to locate items in the store; regardless whether it is a technology item or not. This is because a customer does not have any way to differentiate between a Tech Associate, Office Essentials/Aisles Associate, and a Print Shop Associate. A customer would simply approach the closest person wearing a Staples Uniform with an Associate name tag. Therefore, in order to maintain an optimal level of customer service, constructing a business solution to swiftly and efficiently meet the requirements of customers will help. This is especially the case for newly hired and part-time associates where they may lack the seasoned experience of precisely knowing where items are located in the store. Furthermore, having a referential app would assist associates to retrieve items in a systematic manner upon customer interaction and/or through preparing “Buy Online Pickup In-Store” (BOPIS) orders. 
 

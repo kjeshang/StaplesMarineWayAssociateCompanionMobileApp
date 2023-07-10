@@ -7,7 +7,7 @@
 3. [Technology Requirements](#Technology-Requirements)
 4. [Database](#Database)
 5. [Application Flow](#Application-Flow)
-6. **[Video Demonstration](#Video-Demonstration)** (_Skip to this section to see how the app works actually works!_)
+6. **[Video Demonstration](#Video-Demonstration)** (_Skip to this section to see how the app actually works!_)
 7. [Concluding Remarks](#Concluding-Remarks)
 
 ## Problem Statement

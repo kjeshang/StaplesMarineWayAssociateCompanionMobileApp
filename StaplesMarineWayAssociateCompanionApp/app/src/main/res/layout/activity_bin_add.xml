@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_binAddTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_binAddTitle"
+        android:layout_marginVertical="20dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btn_backToBinFromBinAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_backToBinFromBinAdd"
+        android:textColor="@color/white"
+        android:layout_below="@id/tv_binAddTitle"
+        android:layout_marginVertical="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="100dp"/>
+
+    <Button
+        android:id="@+id/btn_insertProductToBin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_insertProductToBin"
+        android:textColor="@color/white"
+        android:layout_below="@id/tv_binAddTitle"
+        android:layout_toRightOf="@id/btn_backToBinFromBinAdd"
+        android:layout_marginVertical="5dp"
+        android:layout_marginLeft="100dp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/autotv_binAddSearchProduct"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="@string/autotv_binAddSearchProduct"
+        android:layout_below="@id/btn_backToBinFromBinAdd"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="5dp"/>
+
+    <Button
+        android:id="@+id/btn_binAddSearchProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_binAddSearchProduct"
+        android:textColor="@color/white"
+        android:layout_below="@id/autotv_binAddSearchProduct"
+        android:layout_marginVertical="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="70dp" />
+
+    <TextView
+        android:id="@+id/tv_binAddItemNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tv_binAddItemNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/autotv_binAddSearchProduct"
+        android:layout_below="@id/autotv_binAddSearchProduct"
+        android:layout_toRightOf="@id/btn_binAddSearchProduct"
+        android:layout_marginVertical="20dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:id="@+id/tv_binAddTypicalLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tv_binAddTypicalLocation"
+        android:layout_below="@id/btn_binAddSearchProduct"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_binAddStockInCountLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_binAddStockInCountLabel"
+        android:layout_below="@id/tv_binAddTypicalLocation"
+        android:layout_marginVertical="30dp"
+        android:layout_marginHorizontal="30dp"/>
+
+    <EditText
+        android:id="@+id/et_binAddStockInCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/et_binAddStockInCount"
+        android:inputType="number"
+        android:layout_below="@id/tv_binAddTypicalLocation"
+        android:layout_toRightOf="@+id/tv_binAddStockInCountLabel"
+        android:layout_marginVertical="15dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_binAddStockOutCountLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_binAddStockOutCountLabel"
+        android:layout_below="@+id/tv_binAddStockInCountLabel"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="30dp"/>
+
+    <EditText
+        android:id="@+id/et_binAddStockOutCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/et_binAddStockOutCount"
+        android:inputType="number"
+        android:layout_below="@+id/tv_binAddStockInCountLabel"
+        android:layout_toRightOf="@id/tv_binAddStockOutCountLabel"
+        android:layout_marginVertical="10dp" />
+
+</RelativeLayout>

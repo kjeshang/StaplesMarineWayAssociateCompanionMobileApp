@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_binEditTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="@string/tv_binEditTitle"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_binEditBackToBin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_binEditTitle"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:text="@string/btn_binEditBackToBin"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_binEditUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_binEditTitle"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:layout_toRightOf="@id/btn_binEditBackToBin"
+        android:text="@string/btn_binEditUpdate"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_binEditDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_binEditTitle"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:layout_toRightOf="@id/btn_binEditUpdate"
+        android:text="@string/btn_binEditDelete"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tv_binEditItemNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_binEditBackToBin"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:hint="@string/tv_binEditItemNumber" />
+
+    <TextView
+        android:id="@+id/tv_binEditItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_binEditUpdate"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:layout_toRightOf="@id/tv_binEditItemNumber"
+        android:hint="@string/tv_binEditItemName" />
+
+    <TextView
+        android:id="@+id/tv_binEditTypicalLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tv_binEditTypicalLocation"
+        android:layout_below="@id/tv_binEditItemNumber"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_binEditStockInCountLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_binEditStockInCountLabel"
+        android:layout_below="@id/tv_binEditTypicalLocation"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="40dp"/>
+
+    <EditText
+        android:id="@+id/et_binEditStockInCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_binEditTypicalLocation"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"
+        android:layout_toRightOf="@id/tv_binEditStockInCountLabel"
+        android:ems="10"
+        android:hint="@string/et_binEditStockInCount"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/tv_binEditStockOutCountLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_binEditStockOutCountLabel"
+        android:layout_below="@id/tv_binEditStockInCountLabel"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="40dp"/>
+
+    <EditText
+        android:id="@+id/et_binEditStockOutCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_binEditStockInCount"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="5dp"
+        android:layout_toRightOf="@id/tv_binEditStockOutCountLabel"
+        android:ems="10"
+        android:hint="@string/et_binEditStockOutCount"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+</RelativeLayout>

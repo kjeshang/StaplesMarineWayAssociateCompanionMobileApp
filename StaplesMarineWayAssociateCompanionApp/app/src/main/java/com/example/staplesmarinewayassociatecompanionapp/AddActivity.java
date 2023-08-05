@@ -25,6 +25,7 @@ public class AddActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add);
+        //setContentView(R.layout.activity_add_v2);
         databaseHelper = DatabaseHelper.getInstance(this);
 
         btn_backToMainFromAdd = findViewById(R.id.btn_backToMainFromEdit);
@@ -40,7 +41,7 @@ public class AddActivity extends AppCompatActivity {
         btn_backToMainFromAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(AddActivity.this, MainActivity.class));
+                startActivity(new Intent(AddActivity.this, MainActivity_v2.class));
             }
         });
 
@@ -72,7 +73,7 @@ public class AddActivity extends AppCompatActivity {
                     databaseHelper.insertProduct(product);
                     Toast.makeText(AddActivity.this, product.toString(), Toast.LENGTH_SHORT).show();
 
-                    startActivity(new Intent(AddActivity.this, MainActivity.class));
+                    startActivity(new Intent(AddActivity.this, MainActivity_v2.class));
                 }
             }
         });

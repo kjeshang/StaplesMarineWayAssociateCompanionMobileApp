@@ -15,6 +15,7 @@ import android.widget.Switch;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 public class EditActivity extends AppCompatActivity {
 
@@ -26,6 +27,9 @@ public class EditActivity extends AppCompatActivity {
     // Product Variables:
     EditText num_editItemNumber, pt_editItemName, mt_editTypicalLocation, mt_editGeneralNotes, pt_editWebsiteLink, pt_editReviewVideoLink;
 
+    // Layout Variables:
+    //ConstraintLayout ConstrainLayout_editOptions;
+
     DatabaseHelper databaseHelper;
     Product product;
 
@@ -33,6 +37,7 @@ public class EditActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit);
+        //setContentView(R.layout.activity_edit_v2);
 
         btn_backToMainFromEdit = findViewById(R.id.btn_backToMainFromEdit);
         btn_editProductDelete = findViewById(R.id.btn_editProductDelete);
@@ -53,6 +58,8 @@ public class EditActivity extends AppCompatActivity {
         btn_editWebsite = findViewById(R.id.btn_editWebsite);
         btn_editVideoReviewLink = findViewById(R.id.btn_editVideoReviewLink);
 
+        //ConstrainLayout_editOptions = findViewById(R.id.ConstrainLayout_editOptions);
+
         format();
 
         databaseHelper = DatabaseHelper.getInstance(this);
@@ -65,7 +72,7 @@ public class EditActivity extends AppCompatActivity {
         btn_backToMainFromEdit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(EditActivity.this, MainActivity.class));
+                startActivity(new Intent(EditActivity.this, MainActivity_v2.class));
             }
         });
 
@@ -85,6 +92,23 @@ public class EditActivity extends AppCompatActivity {
 
                     btn_editWebsite.setVisibility(View.INVISIBLE);
                     btn_editVideoReviewLink.setVisibility(View.INVISIBLE);
+
+                    //ConstrainLayout_editOptions.setMaxHeight(250);
+
+                    pt_editItemName.setEnabled(true);
+                    if (pt_editItemName.isEnabled()) {
+                        pt_editItemName.setTextColor(Color.WHITE);
+                    }
+
+                    mt_editTypicalLocation.setEnabled(true);
+                    if (mt_editTypicalLocation.isEnabled()) {
+                        mt_editTypicalLocation.setTextColor(Color.WHITE);
+                    }
+
+                    mt_editGeneralNotes.setEnabled(true);
+                    if (mt_editGeneralNotes.isEnabled()) {
+                        mt_editGeneralNotes.setTextColor(Color.WHITE);
+                    }
                 }
                 else {
                     //Toast.makeText(EditActivity.this, "Edit Mode Disabled", Toast.LENGTH_SHORT).show();
@@ -99,6 +123,14 @@ public class EditActivity extends AppCompatActivity {
 
                     btn_editWebsite.setVisibility(View.VISIBLE);
                     btn_editVideoReviewLink.setVisibility(View.VISIBLE);
+
+                    //ConstrainLayout_editOptions.setMaxHeight(800);
+
+                    pt_editItemName.setEnabled(false);
+
+                    mt_editTypicalLocation.setEnabled(false);
+
+                    mt_editGeneralNotes.setEnabled(false);
                 }
             }
         });
@@ -146,7 +178,7 @@ public class EditActivity extends AppCompatActivity {
             public void onClick(View view) {
                 databaseHelper.deleteProduct(product);
                 //Toast.makeText(EditActivity.this, "Deleted " + product.toString(), Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(EditActivity.this, MainActivity.class));
+                startActivity(new Intent(EditActivity.this, MainActivity_v2.class));
             }
         });
     }
@@ -170,6 +202,21 @@ public class EditActivity extends AppCompatActivity {
 
     private void format() {
         num_editItemNumber.setEnabled(false);
+
+        pt_editItemName.setEnabled(false);
+        if (pt_editItemName.isEnabled() == false) {
+            pt_editItemName.setTextColor(Color.WHITE);
+        }
+
+        mt_editTypicalLocation.setEnabled(false);
+        if (mt_editTypicalLocation.isEnabled() == false) {
+            mt_editTypicalLocation.setTextColor(Color.WHITE);
+        }
+
+        mt_editGeneralNotes.setEnabled(false);
+        if (mt_editGeneralNotes.isEnabled() == false) {
+            mt_editGeneralNotes.setTextColor(Color.WHITE);
+        }
 
         stch_editProductEdit.setChecked(false);
 

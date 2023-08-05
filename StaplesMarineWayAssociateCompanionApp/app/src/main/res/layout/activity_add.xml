@@ -79,14 +79,14 @@
         <EditText
             android:id="@+id/pt_editItemName"
             android:layout_width="388dp"
-            android:layout_height="50dp"
+            android:layout_height="75dp"
             android:layout_marginStart="11dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="8dp"
             android:autofillHints=""
             android:ems="10"
             android:hint="@string/pt_addItemName"
-            android:inputType="text"
+            android:inputType="textMultiLine"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/num_editItemNumber" />

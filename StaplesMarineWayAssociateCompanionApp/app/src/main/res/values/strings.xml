@@ -3,6 +3,7 @@
     <!-- activity_main -->
     <string name="btn_goToAdd">Add</string>
     <string name="tv_searchProduct">Search Product</string>
+    <string name="btn_goToBinning">Binning</string>
     <!-- activity_add -->
     <string name="tv_addProduct">Add Product</string>
     <string name="btn_backToMainFromAdd">Back</string>
@@ -27,4 +28,35 @@
     <string name="stch_editProductEdit">Toggle Edit</string>
     <string name="btn_editWebsite">Staples Website</string>
     <string name="btn_editVideoReviewLink">Video Review</string>
+    <!-- activity_bin -->
+    <string name="tv_binTitle">Binning</string>
+    <string name="btn_binBackToMain">Back</string>
+    <string name="btn_binAdd">Add</string>
+    <string name="rdbtn_binAll">Show All</string>
+    <string name="rdbtn_binStockIn">Stock In</string>
+    <string name="rdbtn_btnStockOut">Stock Out</string>
+    <!-- activity_bin_add -->
+    <string name="tv_binAddTitle">Add Product for Stock-In/Stock-Out</string>
+    <string name="btn_backToBinFromBinAdd">Back</string>
+    <string name="btn_insertProductToBin">Insert</string>
+    <string name="autotv_binAddSearchProduct">Item Number or Item Name</string>
+    <string name="btn_binAddSearchProduct">Search</string>
+    <string name="tv_binAddItemNumber">Item Number</string>
+    <string name="tv_binAddTypicalLocation">Typical Location of Item</string>
+    <string name="tv_binAddStockInCountLabel">Bin In</string>
+    <string name="et_binAddStockInCount">Stock-In Count</string>
+    <string name="tv_binAddStockOutCountLabel">Bin Out</string>
+    <string name="et_binAddStockOutCount">Stock-Out Count</string>
+    <!-- activity_bin_edit -->
+    <string name="tv_binEditTitle">Edit Product for Stock-In/Stock-Out</string>
+    <string name="btn_binEditBackToBin">Back</string>
+    <string name="btn_binEditDelete">Delete</string>
+    <string name="btn_binEditUpdate">Update</string>
+    <string name="tv_binEditItemNumber">Item Number</string>
+    <string name="tv_binEditItemName">Item Name</string>
+    <string name="tv_binEditTypicalLocation">Typical Location of Item</string>
+    <string name="tv_binEditStockInCountLabel">Bin In</string>
+    <string name="et_binEditStockInCount">Stock-In Count</string>
+    <string name="tv_binEditStockOutCountLabel">Bin Out</string>
+    <string name="et_binEditStockOutCount">Stock-Out Count</string>
 </resources>

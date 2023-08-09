@@ -3,6 +3,7 @@ package com.example.staplesmarinewayassociatecompanionapp;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,7 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class BinEditActivity extends AppCompatActivity {
 
-    Button btn_binEditBackToBin, btn_binEditDelete, btn_binEditUpdate;
+    Button btn_binEditBackToBin, btn_binEditDelete, btn_binEditUpdate, btn_binEditStaplesWebsite;
     TextView tv_binEditItemNumber, tv_binEditItemName, tv_binEditTypicalLocation;
     Product product;
     EditText et_binEditStockInCount, et_binEditStockOutCount;
@@ -35,6 +36,7 @@ public class BinEditActivity extends AppCompatActivity {
         tv_binEditTypicalLocation = findViewById(R.id.tv_binEditTypicalLocation);
         et_binEditStockInCount = findViewById(R.id.et_binEditStockInCount);
         et_binEditStockOutCount = findViewById(R.id.et_binEditStockOutCount);
+        btn_binEditStaplesWebsite = findViewById(R.id.btn_binEditStaplesWebsite);
 
         databaseHelper = DatabaseHelper.getInstance(this);
 
@@ -79,6 +81,20 @@ public class BinEditActivity extends AppCompatActivity {
 
                     databaseHelper.updateBinEntry(binEntry);
                     Toast.makeText(BinEditActivity.this, "Updated Bin Entry for Product " + binEntry.getProduct(), Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        btn_binEditStaplesWebsite.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Product product = databaseHelper.getProductByItemNumber(tv_binEditItemNumber.getText().toString());
+                try{
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(product.getWebsiteLink()));
+                    startActivity(intent);
+                }
+                catch (Exception e){
+                    Toast.makeText(BinEditActivity.this, "Website Link was not provided", Toast.LENGTH_SHORT).show();
                 }
             }
         });

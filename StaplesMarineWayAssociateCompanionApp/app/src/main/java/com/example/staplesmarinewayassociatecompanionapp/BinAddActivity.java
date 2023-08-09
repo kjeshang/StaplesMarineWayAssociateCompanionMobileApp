@@ -1,6 +1,7 @@
 package com.example.staplesmarinewayassociatecompanionapp;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -20,7 +21,7 @@ import java.util.List;
 public class BinAddActivity extends AppCompatActivity {
 
     private List<String> spinnerData = new ArrayList<>();
-    Button btn_backToBinFromBinAdd, btn_insertProductToBin, btn_binAddSearchProduct;
+    Button btn_backToBinFromBinAdd, btn_insertProductToBin, btn_binAddSearchProduct, btn_binAddStaplesWebsite;
     AutoCompleteTextView autotv_binAddSearchProduct;
     SearchableAdapter adapter;
     TextView tv_binAddItemNumber, tv_binAddTypicalLocation;
@@ -39,6 +40,7 @@ public class BinAddActivity extends AppCompatActivity {
         btn_backToBinFromBinAdd = findViewById(R.id.btn_backToBinFromBinAdd);
         btn_insertProductToBin = findViewById(R.id.btn_insertProductToBin);
         btn_binAddSearchProduct = findViewById(R.id.btn_binAddSearchProduct);
+        btn_binAddStaplesWebsite = findViewById(R.id.btn_binAddStaplesWebsite);
         et_binAddStockInCount = findViewById(R.id.et_binAddStockInCount);
         et_binAddStockOutCount = findViewById(R.id.et_binAddStockOutCount);
 
@@ -84,6 +86,25 @@ public class BinAddActivity extends AppCompatActivity {
                     tv_binAddTypicalLocation.setHint(R.string.tv_binAddTypicalLocation);
                 }
 
+            }
+        });
+
+        btn_binAddStaplesWebsite.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(autotv_binAddSearchProduct.getText().toString().length() == 0) {
+                    Toast.makeText(BinAddActivity.this, "Item Name is Empty", Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    Product product = databaseHelper.getProductByItemNumber(tv_binAddItemNumber.getText().toString());
+                    try{
+                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(product.getWebsiteLink()));
+                        startActivity(intent);
+                    }
+                    catch (Exception e){
+                        Toast.makeText(BinAddActivity.this, "Website Link was not provided", Toast.LENGTH_SHORT).show();
+                    }
+                }
             }
         });
 

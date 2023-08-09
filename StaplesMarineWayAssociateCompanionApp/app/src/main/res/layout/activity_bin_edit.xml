@@ -64,11 +64,11 @@
 
     <TextView
         android:id="@+id/tv_binEditTypicalLocation"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/tv_binEditTypicalLocation"
         android:layout_below="@id/tv_binEditItemNumber"
-        android:layout_marginVertical="10dp"
+        android:layout_marginVertical="30dp"
         android:layout_marginHorizontal="30dp"/>
 
     <TextView
@@ -114,5 +114,15 @@
         android:hint="@string/et_binEditStockOutCount"
         android:inputType="number"
         android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btn_binEditStaplesWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_binEditStockOutCountLabel"
+        android:layout_marginHorizontal="120dp"
+        android:layout_marginVertical="10dp"
+        android:text="@string/btn_binEditStaplesWebsite"
+        android:textColor="@color/white" />
 
 </RelativeLayout>

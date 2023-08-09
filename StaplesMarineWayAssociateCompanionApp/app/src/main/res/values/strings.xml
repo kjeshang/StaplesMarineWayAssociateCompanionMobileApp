@@ -47,6 +47,7 @@
     <string name="et_binAddStockInCount">Stock-In Count</string>
     <string name="tv_binAddStockOutCountLabel">Bin Out</string>
     <string name="et_binAddStockOutCount">Stock-Out Count</string>
+    <string name="btn_binAddStaplesWebsite">Staples Website</string>
     <!-- activity_bin_edit -->
     <string name="tv_binEditTitle">Edit Product for Stock-In/Stock-Out</string>
     <string name="btn_binEditBackToBin">Back</string>
@@ -59,4 +60,5 @@
     <string name="et_binEditStockInCount">Stock-In Count</string>
     <string name="tv_binEditStockOutCountLabel">Bin Out</string>
     <string name="et_binEditStockOutCount">Stock-Out Count</string>
+    <string name="btn_binEditStaplesWebsite">Staples Website</string>
 </resources>

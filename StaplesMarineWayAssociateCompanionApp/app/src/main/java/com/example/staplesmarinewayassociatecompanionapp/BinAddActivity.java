@@ -118,7 +118,7 @@ public class BinAddActivity extends AppCompatActivity {
                     Toast.makeText(BinAddActivity.this, "Stock In/Out Count is empty", Toast.LENGTH_SHORT).show();
                 }
                 else {
-                    int stockInCount = Integer.parseInt(et_binAddStockOutCount.getText().toString());
+                    int stockInCount = Integer.parseInt(et_binAddStockInCount.getText().toString());
                     int stockOutCount = Integer.parseInt(et_binAddStockOutCount.getText().toString());
                     String product = tv_binAddItemNumber.getText().toString();
                     String productName = autotv_binAddSearchProduct.getText().toString();

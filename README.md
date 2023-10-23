@@ -69,7 +69,7 @@ Below is a breakdown of the **Bin** table columns.
 |EditActivity.java|activity_edit.xml|Upon selection of the list view in the main activity screen, the item number of the selected product is saved for further information to be retrieved and populated in the edit activity screen. This Java class helps to render an existing product’s information as well as facilitate updates to product information. Deletion of productions can also be done as well. It utilizes both the DatabaseHelper and Product classes.|
 |BinEntry.java|N/A|This is the Java class that instantiates the “BinEntry” object whereby its variables align with the database columns. Further functions such as constructors, getters, setters, and a toString method are created.|
 |SearchableAdapter.java|N/A|This Java class helps to render the searchable text field in the add bin entry screen. This text field helps to find names of products that one wishes to bin-in or bin-out.|
-|BinActivity.java|activity_bin.xml|This Java class helps to render the bin entry screen of the application. Specifically, the list of product bin entries that is selectable for viewing/editing, filteration parameters via a radio button list (i.e., all entries, stock-in count, stock-out count), and add bin entry button. It utilizes both the DatabaseHelper and BinEntry classes.|
+|BinActivity.java|activity_bin.xml, recycler_view_row.xml|This Java class helps to render the bin entry screen of the application. Specifically, the list of product bin entries that is selectable for viewing/editing, filteration parameters via a radio button list (i.e., all entries, stock-in count, stock-out count), and add bin entry button. It utilizes both the DatabaseHelper and BinEntry classes.|
 |BinAddActivity.java|activity_bin_add.xml|This Java class helps to render the add bin entry screen of the application. One would be able to insert a new non-existing bin entry into the database, given that the product related to that bin exists in the product table. It utilizes both the DatabaseHelper and Product classes.|
 |BinEditActivity.java|activity_bin_edit.xml|Upon selection of the list view in the bin activity screen, the bin entry's identification number is saved for further information to be retrieved and populated in the bin edit activity screen. This Java class helps to render an existing bin entry's details as well as facilitate updates for stock-in & stock-out count. Deletion of bin entries can also be done as well. It utilizes both the DatabaseHelper and BinEntry classes.|
 
@@ -112,3 +112,10 @@ Below is a YouTube video showing a video demonstration of how the application wo
 
 ## Concluding Remarks
 Working on this project was a fruitful experience as I was able to connect the skills I gained from my post-secondary education and apply it in my new role. With Staples stores typically being of a large square footage, having a mobile application to assist associates of all experience levels to systematically retrieve items for customers would not only standardize but enhance service quality. If Staples were to use such a mobile application, then it would have to host a database server that the mobile application would retrieve information from. I am thankful to have been able to revise my mobile application development, database, and Java programming skills by completing this project. I look forward to learning about more products around the Staples store, inputting new products into the mobile application, and using it to systematically create, share, and partner with customers to best meet their requirements. I am thankful for having supportive managers and colleagues that were open to have a look at my project. I look forward to learn and grow with the Staples Marine Way team.
+
+
+
+
+
+
+

@@ -76,19 +76,39 @@ Below is a breakdown of the **Bin** table columns.
 ### Layout Screens
 Below are the XML layouts that are used by the above mentioned classes to render the screens in the mobile application.
 
-* The **activity_main.xml** and **listview_layout.xml** layouts that are used by MainActivity.java.
+* The **activity_main.xml** and **listview_layout.xml** layouts that are used by MainActivity.java. However, both the Java class and XML layouts are deprecated and not used in the current version of the application.
     
     |activity_main.xml|listview_layout.xml|
     |--|--|
-    |![activity_main.xml](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/activity_main%20XML.png?raw=true)|![listview_layout.xml](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/listview_layout%20XML.png?raw=true)
+    |![activity_main.xml](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/activity_main%20XML.png?raw=true)|![listview_layout.xml](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/listview_layout%20XML.png?raw=true)|
     
-* The **activity_add.xml** used by AddActivity.java.
+* The **activity_main_v2.xml** and **recycler_view_row.xml** layouts are used by MainActivity_v2.java.
+
+    |activity_main_v2.xml|recycler_view_row.xml|
+    |--|--|
+    |![activity_main_v2.xml](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Significant%20Update/activity_main_v2.png?raw=true)|![recycler_view_row.xml](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Significant%20Update/recycler_view_row.png?raw=true)|
+
+* The **activity_add.xml** layout used by AddActivity.java.
 
     ![activity_add.xml](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/activity_add%20XML.png?raw=true)
 
-* The **activity_edit.xml** used by EditActivity.java
+* The **activity_edit.xml** layout used by EditActivity.java
 
     ![activity_edit.xml](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/activity_edit%20XML.png?raw=true)
+
+* The **activity_bin.xml** and **recycler_view_row.xml** layouts used by BinActivity.java.
+
+    |activity_bin.xml|recycler_view_row.xml|
+    |--|--|
+    |![activity_bin.xml](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Significant%20Update/activity_bin.png?raw=true)|![recycler_view_row.xml](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Significant%20Update/recycler_view_row.png?raw=true)|
+
+* The **activity_bin_add.xml** layout used by BinAddActivity.java.
+
+    ![activity_bin_add.xml](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Significant%20Update/activity_bin_add.png?raw=true)
+
+* The **activity_bin_edit.xml** layout used by BinEditActivity.java.
+
+    ![activity_bin_edit.xml](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Significant%20Update/activity_bin_edit.png?raw=true)
 
 ### Application Screenshots
 
@@ -112,10 +132,3 @@ Below is a YouTube video showing a video demonstration of how the application wo
 
 ## Concluding Remarks
 Working on this project was a fruitful experience as I was able to connect the skills I gained from my post-secondary education and apply it in my new role. With Staples stores typically being of a large square footage, having a mobile application to assist associates of all experience levels to systematically retrieve items for customers would not only standardize but enhance service quality. If Staples were to use such a mobile application, then it would have to host a database server that the mobile application would retrieve information from. I am thankful to have been able to revise my mobile application development, database, and Java programming skills by completing this project. I look forward to learning about more products around the Staples store, inputting new products into the mobile application, and using it to systematically create, share, and partner with customers to best meet their requirements. I am thankful for having supportive managers and colleagues that were open to have a look at my project. I look forward to learn and grow with the Staples Marine Way team.
-
-
-
-
-
-
-

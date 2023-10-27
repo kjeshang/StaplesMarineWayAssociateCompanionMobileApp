@@ -118,13 +118,21 @@ Please refer to the [Application Screenshot Annotations](https://github.com/kjes
 
 |Screenshot|Description|
 |--|--|
-|![1_Startup Application.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/1_Startup%20Application.png?raw=true)|The splash screen of the application.|
-|![2_MainActivity.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/2_MainActivity.png?raw=true)|The main screen of the application.|
-|![3_MainActivity - Search by SKU.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/3_MainActivity%20-%20Search%20by%20SKU.png?raw=true)|The main screen when filtering products by SKU.|
-|![4_MainActivity - Search by Product Name.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/4_MainActivity%20-%20Search%20by%20Product%20Name.png?raw=true)|The main screen when filtering products by item name.|
-|![5_AddActivity.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/5_AddActivity.png?raw=true)|The add product screen.|
-|![6_EditActivity - Edit Mode not toggled.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/6_EditActivity%20-%20Edit%20Mode%20not%20toggled.png?raw=true)|The update product screen when edit mode is not toggled.|
-|![7_EditActivity - Edit Mode toggled.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/7_EditActivity%20-%20Edit%20Mode%20toggled.png?raw=true)|The update product screen when edit mode is toggled.|
+|![1_Startup Application.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Application%20Screenshot%20Annotations%20-%20Updated/1.png?raw=true)|The splash screen of the application.|
+|![2_MainActivity.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Application%20Screenshot%20Annotations%20-%20Updated/2.png?raw=true)|The first version for the main screen of the application.|
+|![2_MainActivity_v2.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Application%20Screenshot%20Annotations%20-%20Updated/3.png?raw=true)|The current version of the main screen of the application.|
+|![3_MainActivity - Search by SKU.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Application%20Screenshot%20Annotations%20-%20Updated/4.png?raw=true)|The first version for the main screen when filtering products by SKU.|
+|![3_MainActivity_v2 - Search by SKU](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Application%20Screenshot%20Annotations%20-%20Updated/5.png?raw=true)|The current version of the main screen when filtering products by SKU.|
+|![4_MainActivity - Search by Product Name.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Application%20Screenshot%20Annotations%20-%20Updated/6.png?raw=true)|The first version of the main screen when filtering products by item name.|
+|![4_MainActivity_v2 - Search by Product Name](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Application%20Screenshot%20Annotations%20-%20Updated/7.png?raw=true)|The current version of the main screen when filtering products by item name.|
+|![5_AddActivity.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Application%20Screenshot%20Annotations%20-%20Updated/8.png?raw=true)|The add product screen.|
+|![6_EditActivity - Edit Mode not toggled.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Application%20Screenshot%20Annotations%20-%20Updated/9.png?raw=true)|The update product screen when edit mode is not toggled.|
+|![7_EditActivity - Edit Mode toggled.png](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Application%20Screenshot%20Annotations%20-%20Updated/10.png?raw=true)|The update product screen when edit mode is toggled.|
+|![8_BinActivity](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Application%20Screenshot%20Annotations%20-%20Updated/11.png?raw=true)|The product binning list as it would appear with bin entries.|
+|![9_BinAddActivity](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Application%20Screenshot%20Annotations%20-%20Updated/12.png?raw=true)|The add product bin entry screen without details provided.|
+|![10_BinAddActivity - Search by Product Name](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Application%20Screenshot%20Annotations%20-%20Updated/13.png?raw=true)|Search for product to bin using item name.|
+|![10_BinAddActivity - Bin Entry Completed](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Application%20Screenshot%20Annotations%20-%20Updated/14.png?raw=true)|Product bin entry completed.|
+|![11_BinEditActivity](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/Application%20Screenshot%20Annotations%20-%20Updated/15.png?raw=true)|The edit product bin entry screen.|
 
 ## Video Demonstration
 

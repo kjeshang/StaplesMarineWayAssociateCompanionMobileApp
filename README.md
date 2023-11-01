@@ -136,11 +136,11 @@ Please refer to the [Application Screenshot Annotations](https://github.com/kjes
 
 ## Video Demonstration
 
-Below is a YouTube video showing a video demonstration of how the current version of the application works. **Please click on the image below to be redirected to the video**.
+Below is a YouTube video showing a video demonstration of how the **Current Version** of the application works. ***Please click on the image below to be redirected to the video***.
 
 [![Staples Marine Way Associate Companion App (UPDATED) Demonstration Video by Kunal Jeshang](https://github.com/kjeshang/StaplesMarineWayAssociateCompanionMobileApp/blob/main/Screenshots/thumbnail.png?raw=true)](https://youtu.be/jZBAHgg20pI "Staples Marine Way Associate Companion App (UPDATED) Demonstration Video by Kunal Jeshang")
 
-[Click Here](https://youtu.be/OnMvtPF6_20) to see a demonstration video of how the first version of the application worked.
+To see a demonstration video of the first version of the application, [Click Here](https://youtu.be/OnMvtPF6_20).
 
 ## Concluding Remarks
 Working on this project was a fruitful experience as I was able to connect the skills I gained from my post-secondary education and apply it in my new role. With Staples stores typically being of a large square footage, having a mobile application to assist associates of all experience levels to systematically retrieve items for customers would not only standardize but enhance service quality. If Staples were to use such a mobile application, then it would have to host a database server that the mobile application would retrieve information from. I am thankful to have been able to revise my mobile application development, database, and Java programming skills by completing this project. I look forward to learning about more products around the Staples store, inputting new products into the mobile application, and using it to systematically create, share, and partner with customers to best meet their requirements. I am thankful for having supportive managers and colleagues that were open to have a look at my project. I look forward to learn and grow with the Staples Marine Way team.
